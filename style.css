@@ -1,0 +1,82 @@
+.header-section {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 30%;
+  text-align: center;
+	background: #F0F2F0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: whitesmoke
+}
+
+.block-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+#left-block {
+	border: 3px solid black;
+	text-align: center; 
+  padding: 10px;
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 300px;
+  font-size: 20px;
+  border-radius: 20px;
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+
+#center-block{
+	border: 3px solid black;
+  text-align: center; 
+  padding: 10px;
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 300px;
+  font-size: 20px;
+  border-radius: 20px;
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+#right-block{
+	border: 3px solid black;
+  text-align: center; 
+  padding: 10px;
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 300px;
+  font-size: 20px;
+  border-radius: 20px;
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-section {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
